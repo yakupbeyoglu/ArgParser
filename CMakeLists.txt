@@ -10,10 +10,12 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_SOURCE_DIR}/Bin)
 
 find_package(Gorgon REQUIRED)
 
-add_compile_options(-std=c++14)
+add_compile_options(-std=c++17)
 
 add_executable(${PROJECT_NAME}
     Source/Main.cpp
+    Source/Headers/Argument.h
+    Source/Headers/Arguments.h
 )
 
 linkgorgon(${PROJECT_NAME})
