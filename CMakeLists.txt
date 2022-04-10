@@ -14,8 +14,8 @@ add_compile_options(-std=c++17)
 
 add_executable(${PROJECT_NAME}
     Source/Main.cpp
-    Source/Headers/Argument.h
-    Source/Headers/Arguments.h
+    Source/Headers/Value.h
+    Source/Headers/KeyStore.h
 )
 
 linkgorgon(${PROJECT_NAME})
