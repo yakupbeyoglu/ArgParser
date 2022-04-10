@@ -1,3 +1,5 @@
+#ifndef ARGUMENT_H
+#define ARGUMENT_H
 #include <any>
 namespace ArgumentParser {
     
@@ -24,3 +26,4 @@ struct Argument {
 };   
 
 }
+#endif

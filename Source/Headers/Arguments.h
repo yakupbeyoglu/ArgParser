@@ -1,3 +1,5 @@
+#ifndef ARGUMENTS_H
+#define ARGUMENTS_H
 #include <map>
 #include "Argument.h"
 
@@ -34,6 +36,7 @@ namespace ArgumentParser {
         
     private:
         std::map<std::string, Argument> arguments;
-    }
+    };
     
 }
+#endif
